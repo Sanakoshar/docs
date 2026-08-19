@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "NIMS University",
+  "projectDescription": "NIMS University is an online learning and university services platform that provides students, faculty, and staff with tools for enrollment, course management, academic resources, and campus services.",
   "theme": "almond",
-  "name": "NIMS University",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -16,7 +14,7 @@
           {
             "group": "Getting Started",
             "pages": [
-              "index",
+              "introduction",
               "getting-started/account-setup",
               "getting-started/portal-overview",
               "getting-started/first-steps"
@@ -76,22 +74,15 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@nimsuniversity.org"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Student Portal",
-      "href": "https://nimsuniversity.org"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/nimsuniversity"
-    }
-  }
+  "keyFeatures": [
+    "Online admissions and enrollment",
+    "Student portal with course registration",
+    "Examination scheduling and results",
+    "Fee payment and financial aid",
+    "Digital library access",
+    "Hostel and campus services management",
+    "Faculty course and grade management",
+    "Academic timetable and attendance tracking"
+  ],
+  "publicApiSurface": []
 }
